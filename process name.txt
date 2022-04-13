@@ -1,0 +1,40 @@
+variables
+
+0 - do_manual_check  (0 = auto, 1 = manual)
+
+
+1)file extensions 
+
+1 - extension_delete
+2 - extension_doc
+3 - extension_pic
+4 - extension_coding
+5 - extension_vid
+6 - extension_mp3
+7 - extension_shortcut
+8 - extension_none
+9 - extension_unclassified
+
+2) file name
+
+10 - name length
+11 - num_spaces
+12 - num_real_words
+
+
+
+13 - file_size
+14 - days_since_created
+
+15 - is duplicate
+16 - file_delete  (1 for yes 0 for no)
+last(17) - file_name
+
+
+
+train file format
+
+0 - file location
+1 - days since created
+2 - file size
+3 - to be delete or not
